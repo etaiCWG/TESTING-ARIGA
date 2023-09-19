@@ -62,3 +62,5 @@ jobs:
           dir: 'migrations'
           dev-url: "mysql://root:pass@mysql:3306/dev"
           cloud-token: ${{ secrets.ATLAS_TOKEN }}
+
+cloud-url: https://api.atlasgo.link
